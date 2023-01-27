@@ -1,4 +1,4 @@
-<div class="sidebar sidebar-main" style="background-color:#1176c4">
+<div class="sidebar sidebar-main sidebar-fixed" style="height:800px">
   <div class="sidebar-content">
     <div class="sidebar-user">
     </div>
@@ -22,8 +22,10 @@
               <li class="<?php echo menuaktif('all',$aktif); ?>"><a href="<?php echo site_url('Entry/all'); ?>"><i class="icon-file-eye2"></i> <span>Searching</span></a></li>
             </ul>
           </li>
+          <li class="<?php echo menuaktif('artikel',$aktif); ?>"><a href="<?php echo site_url('Artikel'); ?>"><i class="icon-city"></i> <span>Artikel</span></a></li>
           <li class="<?php echo menuaktif('user',$aktif); ?>"><a href="<?php echo site_url('User'); ?>"><i class="icon-collaboration"></i> <span>Manajemen Akses</span></a></li>
           <li class="<?php echo menuaktif('ins',$aktif); ?>"><a href="<?php echo site_url('Ins'); ?>"><i class="icon-city"></i> <span>Manajemen Desa</span></a></li>
+
         </ul>
       </div>
     </div>

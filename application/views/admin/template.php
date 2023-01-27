@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $title; ?>||SIPUDES</title>
+  
+ 
+
   <link href="<?php echo base_url('assets/css/css.css'); ?>" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('assets/css/icons/icomoon/styles.css'); ?>" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('assets/css/minified/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css">
@@ -12,20 +15,25 @@
   <link href="<?php echo base_url('assets/css/minified/components.min.css'); ?>" rel="stylesheet" type="text/css">
   <link href="<?php echo base_url('assets/css/minified/colors.min.css'); ?>" rel="stylesheet" type="text/css">
   <!-- /global stylesheets -->
-
+ 
   <!-- Core JS files -->
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/loaders/pace.min.js'); ?>"></script>
+
   <script type="text/javascript" src="<?php echo base_url('assets/js/core/libraries/jquery.min.js'); ?>"></script>
+  <script type="text/javascript" src="<?php echo base_url().'assets/js/jquery-3.7.js'?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/core/libraries/bootstrap.min.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/loaders/blockui.min.js'); ?>"></script>
   <!-- /core JS files -->
 
   <!-- Theme JS files -->
+  
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/tables/datatables/datatables.min.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/forms/selects/select2.min.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/core/app.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/pages/datatables_advanced.js'); ?>"></script>
+  
   <script type="text/javascript" src="<?php echo base_url('assets/js/core/libraries/jquery_ui/interactions.min.js'); ?>"></script>
+  
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/forms/selects/select2.min.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/pages/form_select2.js'); ?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/pages/components_modals.js');?>"></script>
@@ -37,6 +45,8 @@
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/pickers/pickadate/picker.js');?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/plugins/pickers/pickadate/picker.date.js');?>"></script>
   <script type="text/javascript" src="<?php echo base_url('assets/js/pages/components_popups.js'); ?>"></script>
+  
+
 <style>
    .img4{
      width:50px;
@@ -65,8 +75,8 @@
   <div class="page-container">
     <div class="page-content">
       <?php include $menu; ?>
-      <div class="content-wrapper">
-        <div class="page-header">
+      <div class="content-wrapper" >
+        <div class="page-header" >
           <div class="breadcrumb-line">
             <?php echo $this->breadcrumb->output(); ?>
           </div>
@@ -122,5 +132,6 @@
       </div>
     </div>
   </div>
+  
 </body>
 </html>
