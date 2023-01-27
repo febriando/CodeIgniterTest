@@ -27,6 +27,7 @@
           <li class="<?php echo menuaktif('ins',$aktif); ?>"><a href="<?php echo site_url('Ins'); ?>"><i class="icon-city"></i> <span>Manajemen Desa</span></a></li>
           <li class="<?php echo menuaktif('logout',$aktif); ?>"><a href="<?php echo site_url('Welcome/logout'); ?>"><i class="icon-exit"></i> <span>Logout</span></a></li>
           <li class="<?php echo menuaktif('logout',$aktif); ?>"><a href="<?php echo site_url('Welcome/logout'); ?>"><i class="icon-exit"></i> <span>Sheesh</span></a></li>
+          <li class="<?php echo menuaktif('logout',$aktif); ?>"><a href="<?php echo site_url('Welcome/logout'); ?>"><i class="icon-exit"></i> <span>Sheesh2</span></a></li>
           
         </ul>
       </div>
