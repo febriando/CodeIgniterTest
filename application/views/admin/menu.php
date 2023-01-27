@@ -25,7 +25,8 @@
           <li class="<?php echo menuaktif('artikel',$aktif); ?>"><a href="<?php echo site_url('Artikel'); ?>"><i class="icon-city"></i> <span>Artikel</span></a></li>
           <li class="<?php echo menuaktif('user',$aktif); ?>"><a href="<?php echo site_url('User'); ?>"><i class="icon-collaboration"></i> <span>Manajemen Akses</span></a></li>
           <li class="<?php echo menuaktif('ins',$aktif); ?>"><a href="<?php echo site_url('Ins'); ?>"><i class="icon-city"></i> <span>Manajemen Desa</span></a></li>
-
+          <li class="<?php echo menuaktif('logout',$aktif); ?>"><a href="<?php echo site_url('Welcome/logout'); ?>"><i class="icon-exit"></i> <span>Logout</span></a></li>
+          
         </ul>
       </div>
     </div>
